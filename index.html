@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
     <div class="container">
@@ -17,10 +19,18 @@
           </div>
           <h1>כפיר אפרתי</h1>
           <div class="contact-info">
-            <div>נשוי +2, בן 44</div>
-            <div>📱 052-6495551</div>
-            <div>📧 Efrati.kfir@gmail.com</div>
-            <div>📍 מרווה 7\32, באר שבע</div>
+            <div>
+                <i class="fa-solid fa-mobile-screen"></i>
+                <a href="tel:052-6495551">052-6495551</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:Efrati.kfir@gmail.com">Efrati.kfir@gmail.com</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                מרווה 7\32, באר שבע
+            </div>
           </div>
         </div>
 
@@ -116,6 +126,12 @@
             <div class="company">קצין העיר באר שבע</div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-body"></div>
       </div>
     </div>
   </body>
